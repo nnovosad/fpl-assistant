@@ -1,0 +1,12 @@
+[project]
+name = "fpl-assistant"
+version = "0.1.0"
+description = "Скрипт-помощник для подбора трансферов и капитана в официальном Fantasy Premier League"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+]
+
+[tool.setuptools.packages.find]
+include = ["fpl_assistant*"]
